@@ -6,6 +6,7 @@ class HomePage():
         self.container_tasks_id = "container_tasks"
         self.container_reports_id = "container_reports"
         self.logout_link_id = "logoutLink"
+        self.test_button = "TestContent"
 
     def click_container_tasks(self):
         self.driver.find_element_by_id(self.container_tasks_id).click()
